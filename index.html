@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taste That Brings You Back - Premium fast food in Narayan Peth Pune">
+    <meta name="keywords" content="fast food, Narayan Peth, Pune, Chinese, Sandwiches, Pizza, Pulav, Milkshakes, Cold Drinks">
+    <title>Moreshwar Foody Corner</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        header { background: #333; color: #fff; padding: 10px; position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center; }
+        h1 { margin: 0; }
+        .call-btn { background: red; color: white; padding: 10px; text-decoration: none; border-radius: 5px; }
+        section { padding: 20px; }
+        .hero { background: url('hero-bg.jpg') no-repeat center center/cover; height: 75vh; display: flex; align-items: center; justify-content: center; }
+        .menu, .about, .contact, .gallery, .reviews { margin: 20px 0; }
+        footer { background: #333; color: #fff; text-align: center; padding: 10px; }
+        .float-whatsapp { position: fixed; bottom: 20px; right: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Moreshwar Foody Corner</h1>
+        <a href="tel:+919519155303" class="call-btn">Call Now</a>
+    </header>
+
+    <div class="hero">
+        <h1>Taste That Brings You Back!</h1>
+    </div>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Moreshwar Foody Corner, where we serve delicious and mouthwatering fast food that will keep you coming back for more!</p>
+    </section>
+
+    <section class="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>Chinese</li>
+            <li>Sandwiches</li>
+            <li>Pizza</li>
+            <li>Pulav</li>
+            <li>Milkshakes</li>
+            <li>Cold Drinks</li>
+        </ul>
+    </section>
+
+    <section class="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <p>We offer a unique blend of flavors and a cozy ambiance that ensures a great food experience.</p>
+    </section>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <p>Check out our delicious food images!</p>
+        <img src="gallery1.jpg" alt="Food Image 1">
+        <img src="gallery2.jpg" alt="Food Image 2">
+    </section>
+
+    <section class="reviews">
+        <h2>Customer Reviews</h2>
+        <p>"Best fast food in town!" - Customer A</p>
+        <p>"Loved the ambiance and the food!" - Customer B</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Ramanbaugh Chowk NC Kelkar Road Bhatancha Bol Narayan Peth Pune Maharashtra 411030</p>
+        <p>Phone: +91 9519155303</p>
+        <p>Business Hours: 11:00 AM - 10:00 PM</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Moreshwar Foody Corner. All rights reserved.</p>
+    </footer>
+    <div class="float-whatsapp">
+        <a href="https://wa.me/919519155303"><img src="whatsapp-icon.png" alt="WhatsApp" width="50"></a>
+    </div>
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
